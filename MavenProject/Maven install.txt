@@ -1,0 +1,24 @@
+1. Install Maven
+2. Set System variables to recognize Maven
+3. Understanding Maven terminologies
+ Artifact: An artifact is a file, usually a JAR, that gets deployed to a Maven repository. – subgroup project – or project Name
+ GroupId: groupId will identify your project uniquely across all projects,
+ archetype:generate ; Generates a new project from an archetype
+4. Creating Maven Project
+   mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeVersion =1.1
+5. Integrate Maven with Eclipse: mvn eclipse:eclipse  :
+	To check maven in eclipse windows >preference >maven
+	Jar file into .m2 fo all jar file
+6.	Understanding POM.xml file dependencies..
+7.	How to find the dependencies of the Softwares?
+8.	Importance of Maven Sure fire plugin
+9.	Running Tests with Surefireplugin
+10.	Maven Phases for Test Automation
+11.	Mvn command : Clean : previous builde & clean all build before all project ,
+                              compile, test
+
+12.	Integrating Testng into Maven
+13.	Testng xml files configuration in POM file
+14.	Setting up Profiles in POM.xml file : mvn  test -Psmoke
+	Smoke is everyday
+15.	Running selected Tests only with Maven commands: mvn -Dtest=TestCircle test
